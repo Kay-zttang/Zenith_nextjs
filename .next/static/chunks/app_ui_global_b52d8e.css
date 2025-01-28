@@ -1091,6 +1091,19 @@ select {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-600\/80 {
+  background-color: #dc2626cc;
+}
+
+.bg-red-600\/50 {
+  background-color: #dc262680;
+}
+
 .p-2 {
   padding: .5rem;
 }

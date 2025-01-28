@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 151, "column": 0}, "map": {"version":3,"sources":["file://D%3A/__STUDYING__/Project/zenith-nextjs/app/query/route.ts"],"sourcesContent":[" import { db } from \"@vercel/postgres\";\n\n const client = await db.connect();\n\n async function listInvoices() {\n \tconst data = await client.sql`\n     SELECT invoices.amount, customers.name\n     FROM invoices\n     JOIN customers ON invoices.customer_id = customers.id\n     WHERE invoices.amount = 666;\n   `;\n\n \treturn data.rows;\n }\n\nexport async function GET() {\n   try {\n   \treturn Response.json(await listInvoices());\n   } catch (error) {\n   \treturn Response.json({ error }, { status: 500 });\n   }\n}\n"],"names":[],"mappings":";;;AAAC;AAAA;;AAEA,MAAM,SAAS,MAAM,yRAAA,CAAA,KAAE,CAAC,OAAO;AAE/B,eAAe;IACd,MAAM,OAAO,MAAM,OAAO,GAAG,CAAC;;;;;GAK7B,CAAC;IAEF,OAAO,KAAK,IAAI;AACjB;AAEM,eAAe;IACnB,IAAI;QACH,OAAO,SAAS,IAAI,CAAC,MAAM;IAC5B,EAAE,OAAO,OAAO;QACf,OAAO,SAAS,IAAI,CAAC;YAAE;QAAM,GAAG;YAAE,QAAQ;QAAI;IAC/C;AACH"}},
+    {"offset": {"line": 178, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
