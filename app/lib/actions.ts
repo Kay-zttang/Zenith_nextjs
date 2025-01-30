@@ -24,13 +24,19 @@ export async function createInvoice(formData: FormData){
     const amountInCents = amount * 100 
     const date = new Date().toISOString().split('T')[0];
 
-    await sql`
+    try {
+        await sql`
         Insert into invoices (customer_id, amount, status, date)
         values (${customerId}, ${amountInCents}, ${status}, ${date})
-    `;
+        `;
+    } catch (error){
+        console.log(error);
+    }
 
     revalidatePath('/dashboard/invoices');
-    redirect('dashboard/invoices');
+    /*redirect outside try{}catch(error){}; since redirect works by throwing an error*/
+    /*throwing an error using: throw new Error('Some error msg here')*/
+    redirect('dashboard/invoices'); 
 }
 
 export async function updateInvoice(id:string, formData: FormData) {
@@ -42,18 +48,23 @@ export async function updateInvoice(id:string, formData: FormData) {
 
     const amountInCents = amount * 100 
     
-    await sql `
+    try {
+        await sql `
         Update invoices
         set customer_id = ${customerId}, amount =${amountInCents}, status = ${status}
         where id = {id}
-    `;
+        `;
+    } catch (error){
+        console.log(error);
+    }
+    
 
     revalidatePath('/dashboard/invoices');
     redirect('dashboard/invoices');
 }
 
 export async function deleteInvoice(id:string) {
-
+    /*throw new Error('Failed to Delete Invoice');*/
     await sql `
         Delete from invoices
         where id = {id}

@@ -1,6 +1,6 @@
 {
   "node": {
-    "40d03051c54632bec6c290000167eafdaf6a332690": {
+    "40d03578621680b697b1a7c402c1ae4f513e494b9b": {
       "workers": {
         "app/dashboard/invoices/page": {
           "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
@@ -11,7 +11,7 @@
         "app/dashboard/invoices/page": "rsc"
       }
     },
-    "40d03578621680b697b1a7c402c1ae4f513e494b9b": {
+    "40d03051c54632bec6c290000167eafdaf6a332690": {
       "workers": {
         "app/dashboard/invoices/page": {
           "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",

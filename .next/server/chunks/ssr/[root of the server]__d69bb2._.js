@@ -219,12 +219,16 @@ async function /*#__TURBOPACK_DISABLE_EXPORT_MERGING__*/ createInvoice(formData)
     });
     /* store monetary values in cents to eliminate JavaScript floating-point errors */ const amountInCents = amount * 100;
     const date = new Date().toISOString().split('T')[0];
-    await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$vercel$2b$postgres$40$0$2e$10$2e$0_utf$2d$8$2d$validate$40$6$2e$0$2e$5$2f$node_modules$2f40$vercel$2f$postgres$2f$dist$2f$chunk$2d$7IR77QAQ$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["sql"]`
+    try {
+        await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$vercel$2b$postgres$40$0$2e$10$2e$0_utf$2d$8$2d$validate$40$6$2e$0$2e$5$2f$node_modules$2f40$vercel$2f$postgres$2f$dist$2f$chunk$2d$7IR77QAQ$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["sql"]`
         Insert into invoices (customer_id, amount, status, date)
         values (${customerId}, ${amountInCents}, ${status}, ${date})
-    `;
+        `;
+    } catch (error) {
+        console.log(error);
+    }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["revalidatePath"])('/dashboard/invoices');
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["redirect"])('dashboard/invoices');
+    /*redirect outside try{}catch(error){}; since redirect works by throwing an error*/ /*throwing an error using: throw new Error('Some error msg here')*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["redirect"])('dashboard/invoices');
 }
 async function /*#__TURBOPACK_DISABLE_EXPORT_MERGING__*/ updateInvoice(id, formData) {
     const { customerId, amount, status } = CreateInvoice.parse({
@@ -233,16 +237,20 @@ async function /*#__TURBOPACK_DISABLE_EXPORT_MERGING__*/ updateInvoice(id, formD
         status: formData.get('status')
     });
     const amountInCents = amount * 100;
-    await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$vercel$2b$postgres$40$0$2e$10$2e$0_utf$2d$8$2d$validate$40$6$2e$0$2e$5$2f$node_modules$2f40$vercel$2f$postgres$2f$dist$2f$chunk$2d$7IR77QAQ$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["sql"]`
+    try {
+        await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$vercel$2b$postgres$40$0$2e$10$2e$0_utf$2d$8$2d$validate$40$6$2e$0$2e$5$2f$node_modules$2f40$vercel$2f$postgres$2f$dist$2f$chunk$2d$7IR77QAQ$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["sql"]`
         Update invoices
         set customer_id = ${customerId}, amount =${amountInCents}, status = ${status}
         where id = {id}
-    `;
+        `;
+    } catch (error) {
+        console.log(error);
+    }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["revalidatePath"])('/dashboard/invoices');
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["redirect"])('dashboard/invoices');
 }
 async function /*#__TURBOPACK_DISABLE_EXPORT_MERGING__*/ deleteInvoice(id) {
-    await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$vercel$2b$postgres$40$0$2e$10$2e$0_utf$2d$8$2d$validate$40$6$2e$0$2e$5$2f$node_modules$2f40$vercel$2f$postgres$2f$dist$2f$chunk$2d$7IR77QAQ$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["sql"]`
+    /*throw new Error('Failed to Delete Invoice');*/ await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$vercel$2b$postgres$40$0$2e$10$2e$0_utf$2d$8$2d$validate$40$6$2e$0$2e$5$2f$node_modules$2f40$vercel$2f$postgres$2f$dist$2f$chunk$2d$7IR77QAQ$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["sql"]`
         Delete from invoices
         where id = {id}
     `;
