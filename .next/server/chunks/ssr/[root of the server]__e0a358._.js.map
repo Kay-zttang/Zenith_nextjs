@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file://D%3A/__STUDYING__/Project/zenith-nextjs/app/dashboard/invoices/page.tsx"],"sourcesContent":["import Pagination from \"@/app/ui/invoices/pagination\";\r\nimport Search from \"@/app/ui/search\";\r\nimport Table from '@/app/ui/invoices/table';\r\nimport { CreateInvoice } from \"@/app/ui/invoices/buttons\";\r\nimport { lusitana } from \"@/app/ui/fonts\";\r\nimport { InvoicesTableSkeleton } from \"@/app/ui/skeletons\";\r\nimport { Suspense } from \"react\";\r\n\r\nexport default async function Page(){\r\n  return (\r\n    <div className=\"w-full\">\r\n      <div className=\"flex w-full items-center justify-between\">\r\n        <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>\r\n      </div>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;AAIA;AAAA;;;AAIe,eAAe;IAC5B,qBACE,6XAAC;QAAI,WAAU;kBACb,cAAA,6XAAC;YAAI,WAAU;sBACb,cAAA,6XAAC;gBAAG,WAAW,GAAG,mLAAA,CAAA,WAAQ,CAAC,SAAS,CAAC,SAAS,CAAC;0BAAE;;;;;;;;;;;;;;;;AAIzD"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

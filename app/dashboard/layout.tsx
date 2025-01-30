@@ -1,5 +1,7 @@
 import SideNav from "../ui/dashboard/sidenav";
 
+export const experiment_ppr = true;
+
 export default function Layout({
     children,
 }: {
