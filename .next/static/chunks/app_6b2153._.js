@@ -134,7 +134,7 @@ function Pagination({ totalPages }) {
                     isDisabled: currentPage <= 1
                 }, void 0, false, {
                     fileName: "[project]/app/ui/invoices/pagination.tsx",
-                    lineNumber: 24,
+                    lineNumber: 25,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$experimental$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -152,13 +152,13 @@ function Pagination({ totalPages }) {
                             isActive: currentPage === page
                         }, page, false, {
                             fileName: "[project]/app/ui/invoices/pagination.tsx",
-                            lineNumber: 40,
+                            lineNumber: 41,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/app/ui/invoices/pagination.tsx",
-                    lineNumber: 30,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$experimental$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PaginationArrow, {
@@ -167,13 +167,13 @@ function Pagination({ totalPages }) {
                     isDisabled: currentPage >= totalPages
                 }, void 0, false, {
                     fileName: "[project]/app/ui/invoices/pagination.tsx",
-                    lineNumber: 51,
+                    lineNumber: 52,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/ui/invoices/pagination.tsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 8
         }, this)
     }, void 0, false);
@@ -198,7 +198,7 @@ function PaginationNumber({ page, href, isActive, position }) {
         children: page
     }, void 0, false, {
         fileName: "[project]/app/ui/invoices/pagination.tsx",
-        lineNumber: 84,
+        lineNumber: 85,
         columnNumber: 5
     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$experimental$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         href: href,
@@ -206,7 +206,7 @@ function PaginationNumber({ page, href, isActive, position }) {
         children: page
     }, void 0, false, {
         fileName: "[project]/app/ui/invoices/pagination.tsx",
-        lineNumber: 86,
+        lineNumber: 87,
         columnNumber: 5
     }, this);
 }
@@ -222,13 +222,13 @@ function PaginationArrow({ href, direction, isDisabled }) {
         className: "w-4"
     }, void 0, false, {
         fileName: "[project]/app/ui/invoices/pagination.tsx",
-        lineNumber: 113,
+        lineNumber: 114,
         columnNumber: 7
     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$experimental$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$heroicons$2b$react$40$2$2e$2$2e$0_react$40$19$2e$0$2e$0$2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ArrowRightIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRightIcon$3e$__["ArrowRightIcon"], {
         className: "w-4"
     }, void 0, false, {
         fileName: "[project]/app/ui/invoices/pagination.tsx",
-        lineNumber: 115,
+        lineNumber: 116,
         columnNumber: 7
     }, this);
     return isDisabled ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$experimental$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -236,7 +236,7 @@ function PaginationArrow({ href, direction, isDisabled }) {
         children: icon
     }, void 0, false, {
         fileName: "[project]/app/ui/invoices/pagination.tsx",
-        lineNumber: 119,
+        lineNumber: 120,
         columnNumber: 5
     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$experimental$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         className: className,
@@ -244,7 +244,7 @@ function PaginationArrow({ href, direction, isDisabled }) {
         children: icon
     }, void 0, false, {
         fileName: "[project]/app/ui/invoices/pagination.tsx",
-        lineNumber: 121,
+        lineNumber: 122,
         columnNumber: 5
     }, this);
 }
