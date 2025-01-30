@@ -1,5 +1,5 @@
 import { CpuChipIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+/*import { lusitana } from '@/app/ui/fonts';*/
 import { kumar_one } from '@/app/ui/fonts';
 
 export default function ZenithLogo() {
