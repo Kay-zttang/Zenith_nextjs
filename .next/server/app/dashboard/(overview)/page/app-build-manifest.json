@@ -1,13 +1,15 @@
 {
   "pages": {
     "/dashboard/(overview)/page": [
-      "static/chunks/[root of the server]__dc4193._.css",
       "static/chunks/f577d_next_dist_be98f6._.js",
+      "static/chunks/app_favicon_ico_mjs_0e448b._.js",
+      "static/chunks/[root of the server]__dc4193._.css",
+      "static/chunks/[root of the server]__b53fce._.js",
       "static/chunks/app_layout_tsx_d5e1b9._.js",
       "static/chunks/_778c23._.js",
-      "static/chunks/app_dashboard_layout_tsx_38e5c0._.js",
+      "static/chunks/app_dashboard_layout_tsx_f0db06._.js",
       "static/chunks/f577d_next_dist_cc64f9._.js",
-      "static/chunks/app_dashboard_(overview)_page_tsx_7ab1df._.js",
+      "static/chunks/app_dashboard_(overview)_page_tsx_c1aad0._.js",
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_cb6e10._.js",
       "static/chunks/f577d_next_dist_compiled_react-dom-experimental_85a976._.js",
       "static/chunks/f577d_next_dist_compiled_2f36f2._.js",

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/__STUDYING__/Project/zenith-nextjs/app/dashboard/customers/page.tsx"],"sourcesContent":["import { Metadata } from 'next';\r\n\r\nexport const metadata: Metadata = {\r\n  title: 'Customers',\r\n};\r\n\r\nexport default function Page() {\r\n    return <p>Customers Page</p>;\r\n  }"],"names":[],"mappings":";;;;;;AAEO,MAAM,WAAqB;IAChC,OAAO;AACT;AAEe,SAAS;IACpB,qBAAO,6XAAC;kBAAE;;;;;;AACZ"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
