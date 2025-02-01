@@ -141,9 +141,11 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$i
 ;
 ;
 const metadata = {
-    title: 'Zenith Dashboard',
-    description: 'The official Next.js Course Dashboard, built with App Router.',
-    metadataBase: new URL('zenith-nextjs-ten.vercel.app')
+    title: {
+        template: '%s | Zenith Dashboard',
+        default: 'Zenith Dashboard'
+    },
+    description: 'The sample financial dashboard by Next.js Course, built with App Router.'
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$2$2e$0$2d$canary$2e$29_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -153,12 +155,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 18,
+            lineNumber: 22,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 17,
+        lineNumber: 21,
         columnNumber: 5
     }, this);
 }

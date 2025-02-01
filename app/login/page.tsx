@@ -1,6 +1,11 @@
 import ZenithLogo from "../ui/zenith-logo";
 import LoginForm from "../ui/login-form";
 import { Suspense } from "react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Login',
+};
 
 export default function LoginPage(){
     return (
